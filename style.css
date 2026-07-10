@@ -45,7 +45,6 @@ button a{
     font-family: "Arimo", sans-serif;
     color: #575757; 
 }
-
 /* Header Section End */
 
 /* Banner Section Start */
@@ -156,7 +155,7 @@ button a{
     height: 95px;
     text-align: center;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .Container_p{
     font-family: inter;
@@ -207,6 +206,10 @@ button a{
     font-size: 14px;
     margin-bottom: 10px;
 }
+.price_card ul li::marker{
+    color: #2563EB;
+
+}
 .price_card button{
     margin: 30px 35px 0 35px;
     width:300px;
@@ -216,8 +219,6 @@ button a{
 .price_card button a {
     color: #2563EB;
 }
-
-
 .secound_price_card{
     background-color:#0D1B2A;
     color:white;
@@ -246,6 +247,9 @@ button a{
 .secound_price_card button a {
     color: White;
 }
+.theird_card{
+    background-color: #F8F9FB;
+}
 /* price section end */
 
 
@@ -253,18 +257,15 @@ button a{
 .hackathon-arena {
   padding: 96px 24px;
 }
-
 .hackathon-arena .container {
   max-width: 1320px;
   margin: 0 auto;
 }
-
 .section-heading {
   text-align: center;
   max-width: 640px;
   margin: 0 auto 56px;
 }
-
 .section-heading h2 {
   font-family: 'Inter', sans-serif;
   font-size: 80px;
@@ -273,7 +274,6 @@ button a{
   margin: 0 0 12px;
   letter-spacing: -0.02em;
 }
-
 .section-subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 1.0625rem;
@@ -282,13 +282,11 @@ button a{
   margin: 0;
   line-height: 1.5;
 }
-
 .track-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
-
 .track-card {
   display: flex;
   flex-direction: column;
@@ -300,12 +298,10 @@ button a{
   border-radius: 12px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-
 .track-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px -8px rgba(13, 27, 42, 0.12);
 }
-
 .track-name {
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
@@ -313,7 +309,6 @@ button a{
   color: #0D1B2A;
   margin: 0;
 }
-
 .track-description {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
@@ -323,7 +318,6 @@ button a{
   margin: 0;
   flex-grow: 1;
 }
-
 .track-prize {
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
@@ -331,39 +325,31 @@ button a{
   color: #2563EB;
   margin: 4px 0 0;
 }
-
 /* Featured / dark variant, matches your dark pricing card */
 .track-card--featured {
   background: #0D1B2A;
   border-color: #0D1B2A;
 }
-
 .track-card--featured .track-name {
   color: #FFFFFF;
 }
-
 .track-card--featured .track-description {
   color: #9CA3AF;
 }
-
 .track-card--featured .track-prize {
   color: #2563EB;
 }
-
 /* Responsive: stack on smaller screens */
 @media (max-width: 900px) {
   .track-grid {
     grid-template-columns: 1fr;
   }
 }
-
-
 /* Ai Section End */
-
 
 /* footer section start */
 .footer{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 1550px;
     height: 180px;
     background-color: #0D1B2A;
